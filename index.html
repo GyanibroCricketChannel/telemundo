@@ -1,49 +1,117 @@
-<!DOCTYPE html>  
-<html>  
-<head>  
-  <meta charset="UTF-8">  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <title>Gyani_Bro</title>     
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/shaka-player.ui.min.js" crossorigin="anonymous"></script>  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/controls.min.css" crossorigin="anonymous">  
-  <style>  
-   * { margin: 0; padding: 0; box-sizing: border-box; }  
-    html, body {  
-      background: #000;  
-      height: 100vh;  
-      width: 100vw;  
-      overflow: hidden;  
-      font-family: system-ui, -apple-system, sans-serif;  
-    }  
-    .shaka-video-container {  
-      position: absolute;  
-      inset: 0;  
-      width: 100%;  
-      height: 100%;  
-    }  
-    video {  
-      width: 100%;  
-      height: 100%;  
-      background: #000;  
-      object-fit: contain;  
-    }  
-    .shaka-spinner-container,  
-    .shaka-spinner,  
-    .shaka-spinner-svg {  
-      display: none !important;  
-      visibility: hidden !important;  
-      opacity: 0 !important;  
-    }  
-  </style>  
-</head>  
-<body>  
-  <div class="shaka-video-container" data-shaka-player>  
-    <video autoplay playsinline preload="metadata" poster="https://i.ibb.co/pBzSKg3z/1586162092-020d20c6f8b5fd388ed06ba6929021b826007c55c5fa007f23d6fbac44c2e489-d.webp"></video>  
-  </div>  
-  
-  <script>  
-    
-    (function(_0x1323e0,_0x647bb2){const _0x33dcde=_0x1323e0();function _0xcf1940(_0x34b454,_0x30700c,_0x4c9a76,_0x39b10e,_0x4cdb56){return _0x5e88(_0x4cdb56-0xf1,_0x4c9a76);}function _0x2ad9fa(_0x130a2b,_0x2ed35d,_0x42b437,_0x32e004,_0x3b4126){return _0x5e88(_0x3b4126- -0x253,_0x32e004);}function _0x570fff(_0x1c8bea,_0xfd91dd,_0xf824e0,_0x42ae91,_0x552117){return _0x5e88(_0xf824e0-0x1e3,_0x42ae91);}function _0x27f889(_0x251121,_0x456286,_0x296a0a,_0x87c8f0,_0x73e39b){return _0x5e88(_0x296a0a-0x1d4,_0x251121);}function _0x11221b(_0x50e9eb,_0x1150fe,_0x211a4c,_0x28f7e7,_0x44c952){return _0x5e88(_0x28f7e7- -0x94,_0x50e9eb);}while(!![]){try{const _0x394a86=parseInt(_0x2ad9fa(0xcc,0x21d,0x188,'91qN',0x161))/(-0x20d2+-0x7d5+0x28a8*0x1)*(parseInt(_0xcf1940(0x33f,0x227,'B]dR',0x173,0x1fa))/(0x53d+0x1*-0x1b15+0x15da))+parseInt(_0x27f889('BXc6',0x300,0x42a,0x4e9,0x337))/(0x1fed*0x1+-0x15a*-0x3+-0x23f8)+parseInt(_0x27f889('Upd2',0x2ce,0x443,0x2f7,0x2ce))/(-0x1e8b+0x13da+0xab5*0x1)+parseInt(_0x2ad9fa(-0xaf,-0x18e,-0x70,'(vI)',-0xc0))/(0x1b41+0x4*0x85e+0x1a4*-0x25)*(parseInt(_0x570fff(0x3de,0x3f9,0x433,'(vI)',0x36e))/(-0x916+0x21da+0x2*-0xc5f))+-parseInt(_0x27f889('%HS4',0x4b1,0x503,0x524,0x40f))/(-0x632+0x1f20+0x3*-0x84d)+-parseInt(_0xcf1940(0x339,0x2eb,'[(O$',0x28a,0x406))/(0x12c2+0x9*0x3fd+0x4f*-0xb1)*(-parseInt(_0xcf1940(0x3f4,0x3ea,'*Ih8',0x3f5,0x339))/(0x1*0xd9d+-0x1977+0xb3*0x11))+-parseInt(_0x570fff(0x3a0,0x454,0x34a,'B]dR',0x2f6))/(0x1e7*-0x1+0x3*0xd9+-0x1*0x9a);if(_0x394a86===_0x647bb2)break;else _0x33dcde['push'](_0x33dcde['shift']());}catch(_0x483e71){_0x33dcde['push'](_0x33dcde['shift']());}}}(_0x9343,-0xce31+0xf200c+-0x434b9));function _0x9343(){const _0x3259c8=['xIvimq4','WQK6iKy','W5eUWP0tWRO','WQhdRvtcJSkb','y8oVcCoCmq','gx4UEeS','zCovg2FdOW','aCotW7DaW7S','WOZdRWLavG','rSkQwmoeW4y','WQK/WQbFvG','WQ1CjgPr','W4SDg8kfWP4','jSkkW7fLlW','g3tcPCoRWRm','kSk6mCkwWQK','WQNdHCk+aSo6','CSoqWQXYDG','WQddQL7cImkx','vSo1W5PXW7O','WQq9W4fbgG','W5hdSSoNWRa','WRNdSfxcKmk1','WPddNZXbCa','WQPGf1Xs','W4bNWRZdGWK','amoEW45TW6m','W7NcQCoukSkC','Amo+WRz3CW','kcKEWQfI','uYNdGSkxW7e','ySoZWPvVyW','WR9zW5aL','F03cKqVdTa','efdcGSkDaG','zSoZeNZdLW','WRBdVupcLCkw','WQ82oemq','W5NdRSoBWRjl','WRdcQWG','WR9Zp1Cj','W4nXWRtdTW4','W6KjWPH4WRu','wLBcK8kzba','dSkctZap','W73dQ1fowG','WRtcMhtcV8oD','W4mfWRdcUHC','tmoaW7FdOq','WR3cRG0bgq','wSkFzSkKDW','W5C3WR1ikG','WRRdSSojoCoV','A8o7W7z9WQu','WOz6WOvp','W4VcNSo0nrq','W7ZdThjvwG','W7lcLmoqpdu','CSkdw8kvyq','vmoCW6FdKmoi','WRxcTmoEDmkK','W7VdNSoFimoe','WQ7dQwecWRa','j8kpmSoSWQC','mGesWOK','W7pcGSoakSkz','W4nJWRZdKq0','W6BcUmkjjSo0','q8kmWRhdPJ0','W7yldMhdJG','sSoqW5DOW4O','WOW6W793fG','jmkyir0V','WPDqfwbg','W7f5WP7dLqa','CtCu','qMjtWOZcOa','dSkeb8oWWOi','ACkbFSo+WOW','W4ZdQSoVWPfF','t8oHx8oIiq','W6eSWRaSpa','WPpcQhdcUq','WRtdOmkLfKa','WQGWWO1ZEa','wmklWOmCWQrrW5DAW7fAmG','W40thSkaWPm','aCkIWRBcPrK','vfFcISkeoW','tCkDz8oVW4m','WOVdSbe','W5mEWPqlWOW','atVcImo/W7a','W78IpmkFWPO','D8oLehVdUW','WO/dUrngua','W7yzW6TRWOK','lmosW6nLW6a','bY1SWQxcSq','W60DWQJcVWe','bCoZW6xcQeJdKSkLW6GKfafnWQyb','zmkLvSo4WQS','WPVcV3dcPq','W63cJCkCjSke','AsRcUSkBWQW','W5RcJSoQcY8','WPBdVr9ErG','t8kjxSomWPu','WOVdRZ9ata','W5aGWR1zla','y1XbWP3cLa','WQhdLb58Ca','W7rjfNVdNG','WPCdWOXHvW','CLncWPxdKG','W4vIWRVdSGK','uSkyB8kgCq','qczTW6JdRq','w8oEW5JdICot','WPpdRJnbCa','DCoTqMtdHG','p8oDWQTGna','D8k8WRX6W7G','DsOeW59C','WRBdJW5BAa','WOdcJSkGkmkK','ESoZW7PVW6i','WP5HWPC','zSoVrSoEja','d8kBWP/cJ8kVFCoeWOy9F8oLBsa','W6/dL3fcFa','W7rhfgq','WRtdT2C','kSobpCoqla','W5G0WR18qq','kSkTlmopWQq','W7rxch/dOG','WR3dRuxcMq','icddPa','WQBdS3VcJSk9','WRldTw8tWQy','WRTRWQZdVX8','x8ohWPVdMmo5','W6BdUMvTsq','W7zfdghdHq','WQi8W6/cILKIWRhcKtXtkhKW','W781WRxcPGW','bwnFnay','dwqEDw8','FCoEzColW4G','W7e7WQ7cOr4','gbaOWRrU','jZVdSXrU','W6dcIColc8k9','DmonWRbUAW','wmoZBSoOca','WOJdKqeRW5C','W68IWQBcIHq','ugpcTSkOea','zCowWQ9KDG','W5pcQ8o9esC','FtDcWQKq','WQldP8k3huu','qSkixmogW5e','W4ejWRajWOu','WPddTMqe','WPddSWXOta','h8okW5vyW7G','W6rDWQxdSs0','W7O+jCkGWRO','WPFdH8k9CSkx','yCkpWQpdIs4','g3GuCuS','W7nKWRpdIrG','W4eCWPWjWPG','lmkMFSonWQ0','mSkpg8oPWPq','DmkksSocWOi','pCkNmmoFWQW','WQitvcJcMa','lCodxmo8WQrwW7SZ','zSoUqLFdNa','W7u5WQ4sWQC','W6NdQ1fnuq','WPBcPvdcUmor','W5j5WRldJr8','WQ/dOmkNheW','nqemW5tdIG','W5SoWRTKWR0','m8kEyIKx','wMm2W7O','WOpcNCkMmCkE','W5CEWQulWPi','WQmKW4T1iW','w8oYWOz1FW','W4VcK8olec8','W4alWRufW4G','FCksFSoNWOC','W49uWQ3dIam','WQtdTHrEAq','WOdcOeBcV8om','WOxdQsiXW7u','W6NdJwTetW','W7aMWQOQoG','awtcKCoc','yuBcUs7dLq','x8ozA8oepG','WRnufKPk','WPddSmkIdua','oSkQjmol','d2RcLCoRWR4','W4FcLmohp8kU','w8o4t8olea','BmkzlSkwFa','WOXUwmoAW5i','W7pcLCoUaq','W4W0WRTCWPq','WQNdTLmvWQC','W4NdNKzWtq','exdcGCotWRa','qguXW6FdTW','W6FcQ8o1lHC','W6vddhRdKW','W7vtWOVdIam','WORcOCkUemkp','W4jAW7KqWOe','ewRcKmkD','v1dcLCkgbq','W7bbhxO','W5pcPu8EaW','WPVdSL7cV8kP','W75FaxlcKG','nIBdUb4','FKZcVHtdPW','cSkPqXWw','WOfJiurC','W4ZcMCo9dX8','WQX0aea','rmk3t8oAW5e','W53cLCo2aa','W4ORWRS','W7ZdUKnntq','kfyrCwi','W6q2WRa8pa','WPRdVhNcVCkm','W5mxWPRcKJu','WR5NuKbe','vWVdH8kscG','WRZdS8ky','zepcGmkSbq','W7Ptl1ZdUq','kwiyEwy','WOOHW6zRwG','W4ydWOG7','W6JdT8onWPrA','W6i6WOvBWPm','ySkWWOhdLHK','W6yiWQHlWOG','W5OeWQHDjq','WPr9WPBdKrK','A8o5W6bPW78','WQeWjKOq','De/cJHldTq','W6j+WR7dJGm','WRddOmkhFa','WQVcGmkmkCkE','W7ZdSK5p','W4OOWRLeoG','W5pcVSooktu','WOvGWRFdIHK','W4ORWQ9FlG','W5FdLSo4WQvd','CceKW4nO','D1VcUcZdPG','lCoekCkZW5yjWObBWRLhWPldJepdIG','WP5MWOnpuW','W4ajWRm','W53cICo+aJG','W4GbjmkrWQa','oZ3dPq','CmkLrSkTvG','ESoWW7f9W78','FCo2W6NdRmoz','WPxcQZJcPCox','EelcIHRdNa','WPFdVsLxsq','dwBdJCkxWRO','WPG7luKy','WPi8WRSfWPK','WOO6W6DQbG','WO7dSXO','WQBdPc4cWRO','WO/dJ8kTbtG','s8okW43dLCoz','cmkAWOtcNSkQ','W4ZcMCo5fJ4','WPVcVwy','icddHq55','aJHupq','W7q8WOvDWO8','wMKwW7RdQG','wwC3W6a','y13cVHhdKq','WRifWPz3oG','W6NdUfvirW','wc0nW6Lm','W49dW6SeWQC','W5RcN8otiCol','W4ZdTCoHWQO','tSkBB8kBCq','kCk3zCoTWOzlW54','zmkHWRBdPrO','zSoXix/dGG','W5FdQCo+W6rE','w1tcGSogeW','twKRW73dTW','ECkKvSkGzq','WRZdMmknF8kW','WO3dMmo0WQnjW48n','imkBCteb','E8k4WOVcTSoM','WRtdVvxdNmkl','WP7dSqueW4W','WRddO8kXxSkR','WPr2WPTjsW','WRPXfMTD','zSoSuSoakW','rbe4W7PH','AvVcTG','DfxcS8kRlW','qSkxz8o7W4m','WRRcNCkNn8k4','W60oiCkXWRC','WR7cSbJdNa','W5C5bmkyWQi','W4yBWQ9pWO8','W7eOWRvroa','WQPJkrnm','estcKCoPW5m','ncVcQSoFW6K','W50IWO7cUsK','WOfkvNnW','WRJcH8kOoSkX','mCkxWRzZBa','W4K0W69ZWQa','xCo9W5DqW4u','vCo1W6VdLCoW','AmkACSoVWRO','W5ScWQCrWPq','rSkXWRddPrq','FCo0WOP2vq','W4ZcImoQatW','WPxcRNtcQSoF','D8kJrmkovq','lMlcRmotWP0','WOf3WPrEwG','WQaJWQLxyG','W7RdVLvuwG','WRtdQIjiW70','W5eyWRGwW4G','WOyxnCkEWPHnaG','WOBdKYG4W7G','WQT6afPo','W7CXWRS','WOqEfNG0','W5enWOW6oG','ng/cRCoKWPC','i8oEsdK','nWtcS8oaW7K','bbVdUHbJ','gx0uwNC','odinWP5/','ACorm1xdGW','uSkPB8omW7S','WOa3W6b3iG','W7NcGSob','aLSprwy','kuRcQSovWOu','W7iTWOraWRu','DCkDDSo+','CCofBSoEeG','zmkNv8oFWPu','smkwBG','lCk8p8onWQa','AebuWOtcIq','W4yrWQTfhG','uSkDAmo6W5q','vCoxWQPhEG','WQldSYO4W64','C8ksCW','s2eIW6FdUW','mchcSSoFW7y','oGhdJW1p','o1OVugi','WQHfWOZdMZS','WOxdJCklk0K','fSk5DrWs','wSooW5VdM8oF','rSkHWOZdUbu','iIddUG9M','W6WWWQOTpq','FsSoWQas','WPlcGCk8c8k1','q8kzESoT','W4ZdILztwq','s8oMW73dSSoR','jIJdTfi5','o8k5o8onWOC','sxm3W6S','CSkOWOVdVG0','WR/dRgyhWRa','W6qqnmkzWPS','WRFdL1y7WP4','WPFdImkSE8kE','C8o/W5DfW70','W4SPWOecWQi','EebuW4mS','WPJcJCkHn8k2','WQ/cJ8kHmq','WOJdTJi5W5m','W6jrhfZdGq','W5NdU8oR','W70jW5PUWR4','zwhcUqNdGq','tmkNC8oGWO0','WQlcU0FcJmoC','WPawWP1HAa','mbOtW50','W49aWPCfW5S','FuJcRGZdGa','BCoxW47dPSo/','DSormKldNG','WRj6ha4b','mCkKmColWRy','FCkdB8oMWPW','WOS8W6D9','WQLGevPe','vuxcMcJdRW','W7yMWRmVpa','pJ/cMCoMW7C','ECklFmoVWPu','W5WDWQ5CWPC','WPblWR3dIs0','WPWRW5Wk','WQNdQr9aAG','nsNcRKi4','W6CeWRK','W5ZcK8oTcIK','x03cLbNdKG','r8knzmoLW7S','W7fQWPtdSGu','r3RcLXFdNa','WOtcO3tcSSoB','DSoPW6y8W5K','W6aJWPjmWQi','W6S2WO8hbW','bmorW59y','WP0WW7PT','pIpdLcjM','WOFdLID/CW','A8oMdhFdMG','CSkmu8oRW7q','oCkQyXeD','D8objNFdNa','wCoFW5JdKSoI','fcLQW6/dUG','y2elW7RdMG','W5ZcQmoOWQCC','xuJcQr7dIa','WRRdLMyYWOy','ySoba2ldRq','WQ96aa','WPDVWRbgwG','W5TGWRW1uG','vCkxwSo8W4u','ECkYWPxcTCoQ','WPVdVKyZWPS','WOW7W71vgW','zwpcUJldQa','hMuEAue','w8kXWOldIqi','W7aeWQviWPi','rmkuWP8hWR4','W4ZcMCo/ctG','WPtdUrn9yG','WQHHf0bo','gfCfAhy','WPvQWPddNWi','W6lcLCobmq','W5C/WRNcUW','d38tBLO','r8o5WPPZsW','WPXmWOjetq','yvjbWOBcKW','W7ZdSKXerW','FmkBsCkLvG','B8kKt8o/WOa','tg8RW6O','WP/dKgOYWO0','W4ldTYZdVCkiW7rMfCorCqRcRSks','WR/dQuNcSSkx','WOxdSmk/fL0','kmkbmSoFWRW','D8kQWQFdPcK','ACkJsNBdMW','WPiTWRSiW4a','nraFWOH3','WOZcPmk2W7qtWOfEj2D7zCoXwW','WR4wWQbmzG','WOxdTSkOc1W','W50VaSkeW5O','WO/cQColoSkB','WOHWhKTi','C8oCm21njCoOq1SXW4yhrq','vSoAWQ1cBG','x8oOW4FdN8o3','W7rkWP7dQcm','WQjRWQOTpq','WPRdNhmJWPK','t8kmAmoHW5K','BCo5W6DO','xmowW4FdJCoH','BfTcWQxcIG','zmk5WPFcTSo/','DJegW6zD','W60GWQ3dPXC','WRddRSkfy8kZ','D8o/W6b1W6i','W5O+kCk1WQi','ymoio1FdVW','WQVcV8k8lmkW','W4z9W60sFW','agRcJmouWQS','W5ldV8onWP1A','xSoNvCo1mW','gNqKBN0','EfRcVJhdHa','rCkxWP4cWRW','W7LQEHnkdufWu1RdKgxdNa','hcRcL8o8W6O','W6mTWPvb','WQ7dPCk3c2i','WRhdHSkHoei','CsOdWQ5v','W6u6WQ4Lkq','Cmo4vCodnq','uCorif3dGW','vmoaW48','W4CSkCkdWRa','CYRdQCkfW7G','WRRcH8k2Eq','tSoDWQ5GDW','W4GoWPlcVJy','W5CVWQlcUJe','iZZdSWHy','dcpdLs1b','W5OSWRiVga','ocRdSqHQ','ghuoAq','WPxcTwlcMSo3','jmkeld4x','WP7cICkJbSkL','CLfuWOBcGW','vSoCW5ZdJmoU','nrOoWOj1','W5FcSmoUmru','WPnWWP0fwG','W5n6WQzTfW','swBcLJZdIG','dbZdNWbH','WRfIWOzdCa','W6DRhg7dPa','WP/dQYOqW60','uCkOWRldQa','WPZdOu4qWOq','WRnZWP0PcCoBtCoI','W6GKWQDvWO8','p1KAAvq','CI0zWQxcUa','W5ZcLmo5dtm','y8o2gN7dQG','WRxdUa1Bta','WQ7dVhqOWRS','WPpdP8k5mee','CSkhtCoVWPq','W4vMW4qDdG','WR8ephuD','zJedW7rx','W5eWWR9Fia','nCoxW7rLW7u','pmo7W5PTW7O','mCkqkmoQWOK','W6JdM8oTWQbz','r8k4WO7cRCkR','t8khBCoVWOq','W4VcHCoOaq','DCkDEa','W6hcUmoDiCo0mLGbc8o6W4FcV8os','kSkToG','uCkwq8ohW6y','uCkgWRldOZG','WRRdR8km','WPWHWQzVqW','WP7cHmkYemk1','CmksWRHana','CHOzWPLY','dSozWPHaW74','W7u0WQC','D8kkWQddMHa','WPtdLsT2wq','W64MWRa4pa','WOPiWQntzW','WRv2h0zj','WQWIW4fEaq','W5qzWRSiWPm','E8kAWQxcUSoD','rCk3W4G3WQ0','eSkABmk9WOa','uCkkzSo8W5G','AvPgWPS','W6uPWPrFWO4','W5FcQeGcemoToru+W5BdRW','WQJdMNqUW6i','uSorbhldOW','W5mqWPCyiq','W6WrWPyqcG','W7jIWRpdNG','W5RcMSo8cH8','FCkfA8khEG','W5RcKSoSkdq','W6OhWRTiWP0','A8oEW7f0W6q','W5tcN3NcQSoh','WQznWQ3dVa0','hN5DAuy','iW0zWOzf','W5ZdLg5nsG','W5TYtCknWO8','W6e2WO8kWQm','W4aTWR1ciq','WQZdRgenWRW','W5hdSSoP','WPC5W5hcIf8','WP9QWPTn','WQmfW6rCia','x8kvB8kqwa','WQHRW6fLeW','WONdQSkPfwi','ccbfkKO','W7dcNSoYat4','qmoOmKtdPG','tCkux8k7ua','W5RcJSk4is8','WQNdJNa2WRe','kI/cSmonW64','nY7dPG5I','W7CEWRiaWQG','vmoaW4NdMG','w8k5jmosW6G','E8kQd8okmG','W6eyWQvOWRa','WPDbWPryFa','W6rYWQ3dNW','WQ4/kuul','WPFcOhVcV8om','W6lcLCoCjSks','W4y9WOpcIb4','W4CHWPbcoq','jcpdTWnu','reGtW5tdKW','WPRdI8kGu8kb','W6LrWPFdOcG','WRBdTCkoySk0','EuBcHca','WRb2W6TZAa','WOz1WPr/sG','W4W+d8kdWPq','oemoDgu','WOFcGCkklSkG','W5afWRKa','fSk/yHCs','nCkZutZcJG','WPfWW6KhBW','WQ7cI8kskmkH','WPXGWOfdua','WQ02oeer','W6BdQfvtxq','W7StWOTChG','A8kIWONcOmo/','W4xcOCoHiCk6','WQxcICk8aSkJ','E8kYWONcJmok','FsOh','mCoxdCkf','bwa8rhO','B1HpWOBcIq','EuBcIaVdLW','nt3dLrvN','sgadW6/dUW','mCk7wYBcMhxcTwP9WONdJMOA','kmkfCsGm','WQNcNmkWiSk0','ymogW4XEW4W','WP9VgLHI','nwxcGXFdJWG5','WOW2WRT4fW','zuzsWPVcIa','W51NmgpdOq','hc04WRTW','mrGmWOf+','vCkGWRFdLa0','W7ZdSLDeya','WPnOW6vkyG','WP/dSx/cKCkp','gCoAW4vy','W7XrWQtdKI8','W5ddNmo/asK','itVcRmop','iSoOW4noW7W','ld/cRCoAW7G','A8keWRBcRCoO','W5a2WQ9ccW','W4LTW5lcIa4','W6vpfM/dRq','y8kJWRFcSCoU','WPbUWQ3dTGi','W7jigL7dKa','wIy2W7VdQa','d8klyCoPW5W','WOJcSmkUW7qe','W4u3W4iBc8oiBqaVjSkqcMa','W409gCk/WP0','fCk7sI8R','W5hdMCo4WOjo','W7eYWRPLWQ8','WRtdOHyHW7C','zmk2i8k4sW','lSkHpConWRa','t8kwC8oVWOy','yCk4WOa','hIT8W6/cTq','WOZdUqKDsG','BSoSdddcHa','rmkRWQhdPr4','W5BcVxdcV8ol','WQFdPmkgymkZ','WOhcSsblWOK','W63dVSogWOPB','mcRdTa8','jSk4wr8j','FsOgW68','WRvYWQfpDq','W7m6WPzxWOq','wSkfj8oRW5G','wcHflrFcKHHgECokEr45','lCkSra0P','W6BcPSo4e8kz','WPtdTrLxta','uSkNWO7cOmo/','CvdcJSkhmG','W5lcSCo7jIW','WQ4HBeWw','WP8pWRmkW44','WPhdHCkgx8ke','w8kFESoPWOS','W75OWQNdKWm','WQhcHSkJ','W7CoWQLB','jshcSmozW7q','W6RdSK9f','tmoaW7VdISoP','WR7dU1OVWRK','zmkLWQhdSby','rCoXdwFdNq','WR7cOCkhF8kM','AmkyySkxEq','W4jEmvhdNW','WPxdTbrErG'];_0x9343=function(){return _0x3259c8;};return _0x9343();}function _0x222346(_0xe6639f,_0x116b52,_0x426245,_0x4655ff,_0x15f5c2){return _0x5e88(_0x15f5c2- -0x2ef,_0x4655ff);}const _0x30fb0b=(function(){const _0x1ad7ff={'umiGY':_0x56778d(0x2e4,0x174,'RZ$N',0x193,0x49)+_0x56778d(0x1cc,0x168,'Upd2',0x2ed,0xc7)+_0x2093ce(0x27d,0x1c4,0x1e1,'(uzI',0x203)+_0x47903e('b7Rh',0x4d4,0x419,0x293,0x362)+'d','CHcNS':_0x113378(0x477,0x4fe,0x56d,0x3c2,'oj[*')+_0x47903e('b7Rh',0x39a,0x41e,0x45f,0x3a8)+_0x2093ce(0xce,0x2f1,0x10a,'xso6',0x216)+')','GEsBL':_0x2093ce(0x166,0x253,0xa5,']U[(',0xd8)+_0x2093ce(0x9f,-0x54,0x145,'*rk]',0x69)+_0x113378(0x603,0x568,0x3fb,0x428,'n$m[')+_0x50c8ee(0x464,0x445,0x601,0x4f4,']U[(')+_0x56778d(0x65,0x153,'(uzI',0x164,0x122)+_0x50c8ee(0x446,0x684,0x48e,0x542,'LQsK')+_0x113378(0x3d5,0x503,0x38a,0x65e,'#WT6'),'SIgtz':function(_0x269d10,_0x5f012c){return _0x269d10(_0x5f012c);},'ZvSjw':_0x47903e('(vI)',0x59e,0x4aa,0x59f,0x517),'XVWwQ':function(_0x201869,_0xa13600){return _0x201869+_0xa13600;},'lZyhC':_0x47903e(']dOJ',0x35e,0x45d,0x3cb,0x43b),'chHjI':_0x56778d(0xc6,0x12b,'BXc6',0x10f,0xc9),'qrNsS':function(_0x99fb9d){return _0x99fb9d();},'naDLa':function(_0x265ecc,_0x48fd92){return _0x265ecc!==_0x48fd92;},'SziMb':_0x47903e('#WT6',0x4ce,0x236,0x2a1,0x374),'KBBAn':function(_0x3cbeff,_0x2f8474){return _0x3cbeff===_0x2f8474;},'AyQih':_0x2093ce(0x27b,0x1ff,0x222,'RW(!',0x283),'DQwrq':function(_0x3f56df,_0x144499){return _0x3f56df(_0x144499);},'sQfDL':function(_0x2548b8,_0x520d71){return _0x2548b8===_0x520d71;},'QDlAm':_0x50c8ee(0x49b,0x3c8,0x553,0x4a1,'Upd2')};function _0x113378(_0x216136,_0x53244d,_0x35b7d0,_0x2de49b,_0x5f2e64){return _0x5e88(_0x53244d-0x1f9,_0x5f2e64);}function _0x47903e(_0x13fee7,_0x4fa6be,_0x3985aa,_0x3343c2,_0x38cd1b){return _0x5e88(_0x38cd1b-0x1a3,_0x13fee7);}function _0x50c8ee(_0x2dd38f,_0x2847e3,_0x3a266e,_0x4f7a80,_0x2f020c){return _0x5e88(_0x4f7a80-0x347,_0x2f020c);}function _0x56778d(_0x112c6f,_0x5f4a23,_0x5c0d75,_0x9e6d32,_0x2ba69c){return _0x5e88(_0x5f4a23- -0x1e6,_0x5c0d75);}let _0xca5ecd=!![];function _0x2093ce(_0x28dec8,_0x3b03bd,_0x48a231,_0x731914,_0x2441d6){return _0x5e88(_0x2441d6- -0x129,_0x731914);}return function(_0x38c635,_0x51d467){function _0x503215(_0x575296,_0x1f98cd,_0x5a9ff7,_0x5b624c,_0x157df7){return _0x2093ce(_0x575296-0x1ce,_0x1f98cd-0x1d8,_0x5a9ff7-0xc6,_0x1f98cd,_0x5a9ff7- -0x2a3);}function _0x87241c(_0x343882,_0x4c3e14,_0x508adc,_0x4accd4,_0x9ae35f){return _0x2093ce(_0x343882-0x162,_0x4c3e14-0xb9,_0x508adc-0x48,_0x508adc,_0x9ae35f- -0x27b);}const _0x23ccfd={'bVywM':_0x1ad7ff[_0x503215(-0x21b,'O1xP',-0x205,-0x346,-0x294)],'KjoCQ':_0x1ad7ff[_0x503215(0xf0,'cg9r',0x2,0x10c,-0x49)],'Bezdj':_0x1ad7ff[_0x87241c(-0x22f,-0x1d2,'xso6',-0x1b8,-0x149)],'EredH':function(_0x4730f2,_0x53071f){function _0x4161a9(_0x54b17c,_0x5ab35b,_0x12fe1f,_0xd55fc2,_0x4b4db2){return _0x87241c(_0x54b17c-0xc0,_0x5ab35b-0xcb,_0x12fe1f,_0xd55fc2-0x0,_0x5ab35b-0x2c7);}return _0x1ad7ff[_0x4161a9(0x219,0x1b9,'O1xP',0x9b,0x7b)](_0x4730f2,_0x53071f);},'JPmER':_0x1ad7ff[_0x87241c(-0x304,-0x2f9,'b7Rh',-0xed,-0x264)],'jcCYp':function(_0x19695a,_0x4e2a6e){function _0x238005(_0x4774a0,_0x408609,_0x52677c,_0x1f81d2,_0x448838){return _0x497ae9(_0x1f81d2,_0x52677c- -0x37f,_0x52677c-0x21,_0x1f81d2-0x198,_0x448838-0x1c2);}return _0x1ad7ff[_0x238005(0x19e,0x2bb,0x136,'v8TK',0x1c5)](_0x19695a,_0x4e2a6e);},'KmrYt':_0x1ad7ff[_0x497ae9('aTB#',0x4d1,0x490,0x60e,0x4a3)],'XWmJJ':_0x1ad7ff[_0xae56ee('n$m[',0x2c5,0x353,0x290,0x15a)],'vZIgR':function(_0x1e1593){function _0x2f791e(_0x2ff9d9,_0x447b46,_0x3d4376,_0x47a38,_0x1350fe){return _0x87241c(_0x2ff9d9-0x104,_0x447b46-0x1ca,_0x2ff9d9,_0x47a38-0xf1,_0x3d4376-0x2c6);}return _0x1ad7ff[_0x2f791e('cg9r',0x388,0x2f8,0x42a,0x3e6)](_0x1e1593);},'bjEso':function(_0x15a4da,_0x2ec74c){function _0x4941a0(_0x4fb5a8,_0x2d4c16,_0x39705c,_0x551cae,_0x37e693){return _0x5f4286(_0x551cae,_0x4fb5a8-0x3e7,_0x39705c-0x166,_0x551cae-0x173,_0x37e693-0x121);}return _0x1ad7ff[_0x4941a0(0x765,0x72f,0x7fc,'mH%#',0x7d5)](_0x15a4da,_0x2ec74c);},'JSLhy':_0x1ad7ff[_0x497ae9('aTB#',0x539,0x50c,0x629,0x6b6)],'yGlUb':function(_0x1c9419,_0x57507f){function _0x89ef46(_0x1328fa,_0x3654b7,_0x116039,_0x46afc3,_0x1e2543){return _0x503215(_0x1328fa-0x1e3,_0x46afc3,_0x3654b7-0x101,_0x46afc3-0x146,_0x1e2543-0x1c9);}return _0x1ad7ff[_0x89ef46(-0x137,-0x18c,-0x84,'BXc6',-0x8a)](_0x1c9419,_0x57507f);},'eOFRf':_0x1ad7ff[_0x5f4286('rzwC',0x34c,0x440,0x2c8,0x32e)],'CNsKk':function(_0x4f584b,_0x245858){function _0x226aaa(_0x3701bf,_0x1535ba,_0x25f04c,_0x2588fa,_0x16c246){return _0x87241c(_0x3701bf-0x18a,_0x1535ba-0x4d,_0x16c246,_0x2588fa-0x21,_0x25f04c-0x50);}return _0x1ad7ff[_0x226aaa(-0x185,-0x205,-0x16b,-0x1a7,'mH%#')](_0x4f584b,_0x245858);}};function _0x5f4286(_0x467924,_0x41a910,_0xe456b6,_0x2d3364,_0x40475f){return _0x2093ce(_0x467924-0x111,_0x41a910-0x7c,_0xe456b6-0x9b,_0x467924,_0x41a910-0xb9);}function _0x497ae9(_0x55e0d3,_0x3106dc,_0x9c770e,_0x4795cf,_0x2c181f){return _0x2093ce(_0x55e0d3-0x41,_0x3106dc-0xd8,_0x9c770e-0x126,_0x55e0d3,_0x3106dc-0x2da);}function _0xae56ee(_0x33ffbb,_0x4cf522,_0x559a66,_0x5bd5ac,_0x280ef0){return _0x2093ce(_0x33ffbb-0x0,_0x4cf522-0x85,_0x559a66-0x16e,_0x33ffbb,_0x4cf522-0x290);}if(_0x1ad7ff[_0x87241c(-0x2a3,-0x168,'&w8o',-0x213,-0x1da)](_0x1ad7ff[_0x497ae9('91qN',0x454,0x410,0x411,0x366)],_0x1ad7ff[_0x5f4286('yB#d',0x203,0x2ec,0x25d,0x95)])){const _0x25546e=_0xca5ecd?function(){function _0x153a89(_0x4e7037,_0x30cac8,_0x194183,_0x44e234,_0x4b8344){return _0x497ae9(_0x194183,_0x30cac8-0x14f,_0x194183-0x11d,_0x44e234-0x17c,_0x4b8344-0x1f1);}function _0x213ac5(_0x148f1a,_0x521e68,_0x31a138,_0x58d59d,_0x520b68){return _0x497ae9(_0x58d59d,_0x520b68- -0x131,_0x31a138-0xe,_0x58d59d-0xdb,_0x520b68-0x55);}function _0x2c5a7a(_0x214841,_0xfc0a74,_0x4dd1b4,_0x3fedab,_0x2ddf91){return _0x497ae9(_0xfc0a74,_0x2ddf91- -0x4d1,_0x4dd1b4-0x71,_0x3fedab-0x1a6,_0x2ddf91-0x1a0);}function _0x1059fd(_0x50603e,_0x5b7ca8,_0xd763ce,_0xad70d,_0x5a6863){return _0x497ae9(_0xd763ce,_0x5b7ca8- -0x3aa,_0xd763ce-0x12c,_0xad70d-0x50,_0x5a6863-0x73);}function _0x504b5d(_0x2d53f9,_0x4f12f3,_0x21354b,_0x4994bd,_0x368638){return _0x497ae9(_0x4994bd,_0x4f12f3- -0x13b,_0x21354b-0x190,_0x4994bd-0x92,_0x368638-0xd8);}if(_0x23ccfd[_0x504b5d(0x308,0x183,0x30,'*Ih8',0x269)](_0x23ccfd[_0x504b5d(0x1b0,0x28e,0x3b0,'[(O$',0x15e)],_0x23ccfd[_0x213ac5(0x2c3,0x2c2,0x2fd,'#WT6',0x1a3)])){_0x361205[_0x153a89(0x413,0x438,'^u35',0x33e,0x323)](_0x23ccfd[_0x1059fd(0x19b,0x16c,'RZ$N',0x250,0x129)]);return;}else{if(_0x51d467){if(_0x23ccfd[_0x2c5a7a(0x173,'RW(!',0x1d5,0x133,0x7e)](_0x23ccfd[_0x213ac5(0x258,0xf6,0x22a,'&w8o',0x1c3)],_0x23ccfd[_0x1059fd(0x121,-0x19,'yB#d',0x62,-0x1)])){const _0x58c262=_0x51d467[_0x504b5d(0x11f,0x20a,0x248,'BXc6',0x2e2)](_0x38c635,arguments);return _0x51d467=null,_0x58c262;}else{const _0x4b0e41=new _0x2f42ce(_0x23ccfd[_0x213ac5(0x323,0x92,0x196,'573W',0x1bb)]),_0x402c02=new _0x4afe07(_0x23ccfd[_0x2c5a7a(-0x2,'yB#d',0xe2,0x7a,0xe1)],'i'),_0x263072=_0x23ccfd[_0x213ac5(0xfe,0x5e,0xb5,'O1xP',0x1d0)](_0x31b68e,_0x23ccfd[_0x213ac5(0x2e3,0x3cc,0x3e6,'9n^w',0x359)]);!_0x4b0e41[_0x213ac5(0x36c,0x36f,0x400,'O1xP',0x303)](_0x23ccfd[_0x153a89(0x6bb,0x56a,'(vI)',0x5d9,0x652)](_0x263072,_0x23ccfd[_0x213ac5(0x18f,0x455,0x2d2,'#WT6',0x2eb)]))||!_0x402c02[_0x2c5a7a(-0x81,'91qN',0x22,-0x5c,-0x1)](_0x23ccfd[_0x504b5d(0x2b3,0x269,0x33c,'vyb8',0xec)](_0x263072,_0x23ccfd[_0x213ac5(0x27f,0x2df,0xe6,']dOJ',0x1b2)]))?_0x23ccfd[_0x2c5a7a(-0x20,'56yw',-0xf3,-0x1a0,-0x3b)](_0x263072,'0'):_0x23ccfd[_0x1059fd(-0x1b7,-0x8e,'rzwC',0xc0,-0x1c1)](_0x22ffa9);}}}}:function(){};return _0xca5ecd=![],_0x25546e;}else{if(_0x414956)return _0x5cb12f;else _0x23ccfd[_0x497ae9('lYj4',0x466,0x445,0x46c,0x449)](_0x11d5a0,0x22c6+0x1687*-0x1+-0xf*0xd1);}};}()),_0x1c07b1=_0x30fb0b(this,function(){function _0x2d9af2(_0x4f88d8,_0x76597b,_0x22cc05,_0x57739e,_0x27d8e3){return _0x5e88(_0x4f88d8-0x4a,_0x7659
-  </script>  
-</body>  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TG_@Gyani</title>
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #242424, #3b5998);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        /* Glowing Effect for Message */
+        .loading-message {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffcc00;
+            margin-bottom: 10px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-align: center;
+            box-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 30px #ffcc00;
+            animation: glow 1.5s infinite alternate;
+        }
+
+        @keyframes glow {
+            0% { box-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 30px #ffcc00; }
+            100% { box-shadow: 0 0 15px #ffcc00, 0 0 25px #ffcc00, 0 0 35px #ffcc00; }
+        }
+
+        /* Video Player Styling */
+        .player-container {
+            width: 95%;
+            max-width: 1200px;
+            margin: 20px auto;
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+            border-radius: 15px;
+            overflow: hidden;
+            background: #000;
+        }
+
+        .player-container iframe {
+            border-radius: 15px;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Join Telegram Button */
+        .join-telegram-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .join-telegram-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #008fd6;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .join-telegram-btn:hover {
+            background-color: #006bb3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Loading Message -->
+    <div class="loading-message">Share The Links With Your Friends</div>
+
+    <!-- Video Player Section -->
+    <div class="player-container">
+        <div style="padding:56.25% 0 0 0;position:relative;">
+            <iframe id="contentFrame" sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation" 
+            frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen="true" scrolling="no" 
+            src="https://new-allinone.pages.dev/tsn" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+        </div>
+    </div>
+
+    <!-- Join Telegram Button -->
+    <div class="join-telegram-container">
+        <button class="join-telegram-btn" onclick="window.open('https://t.me/+dMtdPBTHz1Y1NzFl', '_blank')">Join Telegram Channel</button>
+    </div>
+<script>
+// alert('Join Our Telegram For Latest update')
+         if (confirm("Join Our Telegram Channel @GyaniBro") == true) {
+         window.open("
+https://t.me/+dMtdPBTHz1Y1NzFl", '_blank');
+     }
+</script>
+<script>
+// alert('Join Our Telegram For Latest update')
+         if (confirm("Join Our Telegram Channel @Gyani_Bro") == true) {
+         window.open("https://t.me/+dMtdPBTHz1Y1NzFl", '_blank');
+     }
+</script>
+
+</body>
 </html>
